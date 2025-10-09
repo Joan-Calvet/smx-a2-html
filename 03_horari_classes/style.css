@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+}
+
+td, caption, th{
+    border: solid 1px black;
+    margin: 0;
+    text-align: center;
+}
