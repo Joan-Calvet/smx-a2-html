@@ -1,9 +1,18 @@
-h1{
-    text-align: center;
-}
 
-td, caption, th{
+
+caption{
     border: solid 1px black;
     margin: 0;
     text-align: center;
 }
+td, th{
+    border: solid 1px black;
+    margin: 0;
+    text-align: center;
+    width: min-content;
+    }
+
+table{
+        border-collapse: collapse;
+}
+
