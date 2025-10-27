@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Inscripció</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Dades personals</legend>
+                <label for="nom">Nom complet</label>
+                <input type="text" name="nom" id="nom" required>
+                <label for="email">Correu electrònic</label>
+                <input type="email" name="email" id="email" required>
+                <label for="tel">Telèfon</label>
+                <input type="tel" name="tel" id="tel" required>
+                <label for="naixement">Data de naixement</label>
+                <input type="date" name="naixement" id="naixement">
+            </fieldset>
+            <fieldset>
+                <legend>Tipus de curs i experiencia previa</legend>
+                <label for="cursos">Escollir cursos</label>
+                <select multiple name="cursos" id="cursos">
+                    <optgroup label="a">
+                        <option value="1">111111111111</option>
+                        <option value="2">222222222222</option>
+                        <option value="3">333333333333</option>
+                    </optgroup>
+                    <optgroup label="b">
+                        <option value="4">111111111111</option>
+                        <option value="5">222222222222</option>
+                        <option value="6">333333333333</option>
+                    </optgroup>
+                </select>
+                <label for="nivell">Nivell</label>
+                <label><input required type="radio" name="nivell" id="nivell" value="1">1</label>
+                <label><input required type="radio" name="nivell" id="nivell" value="2">2</label>
+            </fieldset>
+            <fieldset>
+                <legend>Interessos i motivació del curs</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Fitxer i acceptació de condicions</legend>
+                <label for="pdf">Fitxer</label>
+                <input type="file" name="pdf" id="pdf" accept="pdf">
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
