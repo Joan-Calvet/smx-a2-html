@@ -3,7 +3,7 @@ body{
 }
 
 
-header{
+h1{
     width: min-content;
     margin: auto;
     border: solid;
